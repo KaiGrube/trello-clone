@@ -1,0 +1,28 @@
+.Question {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  background-color: rgba(100,100,100,0.8);
+  z-index: 10;
+
+  .window {
+    background-color: rgba(100,100,100,0.9);
+    color: white;
+
+    main {
+    }
+
+    footer {
+      text-align: right;
+      input[type=button] {
+        width: 3rem;
+      }
+    }
+  }
+}

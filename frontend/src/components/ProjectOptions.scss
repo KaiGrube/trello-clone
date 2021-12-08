@@ -1,0 +1,29 @@
+$button-width: 2rem;
+$button-height: 2rem;
+$menu-width: 10rem;
+
+.ProjectOptions {
+  position: relative;
+  margin-left: 1rem;
+
+  #toggleButton {
+    width: $button-width;
+    height: $button-height;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+
+  }
+
+  #menu {
+    display: none;
+    position: absolute;
+    left: -($menu-width - $button-width);
+    top: $button-height;
+    gap: 0.25rem;
+    width: $menu-width;
+    padding: .5rem;
+    z-index: 11;
+  }
+}
