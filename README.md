@@ -14,14 +14,10 @@ The trello clone enables the user to add, to edit and to remove projects and tas
 + PostgreSQL
 
 ### 3. Screenshots
-+ Screenshot 1:
-
 ![Screenshot](./screenshot2.png)
-
-+Screenshot 2:
-
 ![Screenshot](./screenshot1.png)
 
 ### 4. Notes
 + Frontend built with Node 14
+
 
